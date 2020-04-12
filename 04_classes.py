@@ -18,7 +18,7 @@ class App:
         pass
 
     def draw(self):
-        pyxel.text(80, 80, "Hello World from a class!", 9)
+        pyxel.text(30, 50, "Hello World from a class!", 9)
 
 
 
