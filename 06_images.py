@@ -30,6 +30,8 @@ class App:
         # v img/texture/height = 100
         pyxel.blt(0, 0, 0, 0, 0, 200, 200)
 
+        pyxel.text(40, 220, 'Never Gonna Give You Up!', 7)
+
 
 
 if __name__ == "__main__":
