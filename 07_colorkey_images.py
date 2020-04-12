@@ -40,6 +40,8 @@ class App:
 
         pyxel.blt(10, 10, 0, 0, 0, 240, 240, COLORKEY_COLOR)
 
+        pyxel.text(40, 220, 'This image demonstrates color keying.', 7)
+        pyxel.text(40, 230, 'Check out assets/07_colorkey.png', 7)
 
 
 if __name__ == "__main__":
