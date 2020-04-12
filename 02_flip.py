@@ -23,7 +23,7 @@ for i in range(100):
     pyxel.cls(i % 16)  # Modulo keeps i bound within 0 and 15.
 
     # Add some text
-    pyxel.text(80, 80, f'Hello World! i = {i} and i % 16 = {i % 16}', (i + 1) % 16)
+    pyxel.text(10, 40, f'Hello World! i = {i} and i % 16 = {i % 16}', (i + 1) % 16)
 
     # Update the screen
     pyxel.flip()
