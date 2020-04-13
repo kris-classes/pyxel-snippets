@@ -24,6 +24,7 @@ import hashlib
 import importlib
 import logging
 import multiprocessing
+import pathlib
 import signal
 import sys
 import time
@@ -49,7 +50,7 @@ def watch(filename):
     process = None
 
     # Strip the .py extension to get the module name.
-    module_name = filename.rstrip('.py')
+    module_name = pathlib.Path(filename).stem
 
     # Import the module, equivalent to 'import module_name'.
     imported_module = importlib.import_module(module_name, package=None)
