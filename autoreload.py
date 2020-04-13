@@ -6,7 +6,7 @@ NOTE: Requires the module being run to define an App() class.
 Useful for prototyping small pyxel apps or experimenting with snippets.
 
 Usage:
-    python autoreload.py 04_classes.py
+    python autoreload.py my_pyxel_file.py
 
 
 Or if you're on Linux/MacOS, chmod+x then ./autoreload.py myfile.py
