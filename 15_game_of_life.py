@@ -20,8 +20,6 @@ Game of Life is a simulation with the following rules:
 
     Kris Pritchard / @krisrp.
 """
-
-# TODO: Better documentation.
 import collections
 import math
 import random
@@ -111,6 +109,16 @@ class Grid:
             for x in range(self.width):
                 if random.random() > (1 - self.initial_population):
                     self.cells.add(Cell(x, y))
+        #glider = {
+        #    Cell(1, 0),
+        #    Cell(2, 1),
+        #    Cell(0, 2),
+        #    Cell(1, 2),
+        #    Cell(2, 2),
+        #}
+        #self.cells = glider
+
+
 
     def print_cells(self):
         logging.info('')
@@ -162,6 +170,7 @@ class Grid:
 
         NOTE: Can optimize this to only check neighbours of living cells.
         """
+        cells = set.copy(self.cells)
         if self.is_running:
             for y in range(self.height):
                 for x in range(self.width):
@@ -173,11 +182,12 @@ class Grid:
                             pass
                         else:
                             #logging.info(f'Cell: {cell} dies!')
-                            self.cells.remove(cell)
+                            cells.remove(cell)
                     elif cell not in self.cells and num_neighbours == 3:
                         #logging.info(f'New Cell: {cell} was born!')
-                        self.cells.add(cell)  # It's ALIVE!
+                        cells.add(cell)  # It's ALIVE!
         self.generation += 1
+        self.cells = set.copy(cells)
 
     def random_color(self):
         self.alive_color = random.choice([1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 14, 15])
