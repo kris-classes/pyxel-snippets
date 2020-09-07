@@ -1,6 +1,7 @@
 import pyxel
 import random
 
+
 class App:
     def __init__(self):
         pyxel.init(160, 120)
@@ -15,7 +16,6 @@ class App:
         self.dy = random.randint(1, 4)
         self.wins = 0
         pyxel.run(self.update, self.draw)
-
 
     def reset(self):
         self.won = False
