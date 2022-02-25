@@ -36,6 +36,7 @@ class App:
         # Initialize a 256x256 window
         pyxel.init(256, 256)
 
+        pyxel.mouse(True)
         # Create a list to store our bubbles
         self.bubbles = []
 
@@ -50,7 +51,7 @@ class App:
         self.bubbles = [bubble for bubble in self.bubbles if bubble.radius <= MAX_BUBBLE_SIZE and bubble.created < datetime.now() + random_timedelta]
 
         # Add a new bubble where the mouse was clicked
-        if pyxel.btnp(pyxel.MOUSE_LEFT_BUTTON):
+        if pyxel.btnp(pyxel.MOUSE_BUTTON_LEFT):
             self.bubbles.append(Bubble(pyxel.mouse_x, pyxel.mouse_y))
 
         # Increase the size of each bubble
