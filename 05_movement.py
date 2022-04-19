@@ -1,7 +1,7 @@
 """
 Instead of using functions and global variables, let's store state using classes.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 

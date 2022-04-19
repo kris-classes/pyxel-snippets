@@ -6,7 +6,7 @@ and then control which sprite displays for a given animation.
 
 Not every sprite in this spritesheet has the same size bounding box and I want to keep this example as simple as possible though.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 

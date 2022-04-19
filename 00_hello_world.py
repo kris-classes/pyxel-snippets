@@ -1,7 +1,7 @@
 """
 Display a simple text message.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 

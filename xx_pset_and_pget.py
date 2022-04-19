@@ -1,7 +1,7 @@
 """
 pset sets a pixel color. pget gets a pixel color.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 

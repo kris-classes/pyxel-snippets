@@ -8,7 +8,7 @@ If you need to store a lot of state, better than using
 global variables is to use classes instead.
 See the next example.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 

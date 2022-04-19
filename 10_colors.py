@@ -3,7 +3,7 @@ Display colors available in pyxel with the default palette.
 
 This example is more verbose than necessary but is done for teaching purposes.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 

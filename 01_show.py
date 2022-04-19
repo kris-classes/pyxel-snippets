@@ -1,7 +1,7 @@
 """
 Display "move the mouse!" with mouse enabled and show().
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 

@@ -1,7 +1,7 @@
 """
 Demonstrates how show() behaves with a mouse cursor.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 import time

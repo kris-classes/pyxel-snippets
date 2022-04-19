@@ -1,7 +1,7 @@
 """
 Demonstrates how to use random numbers and datetimes to add an element of randomness to a game.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 from datetime import datetime, timedelta
 import pyxel

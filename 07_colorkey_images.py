@@ -2,7 +2,7 @@
 Load an image and make the colorkey transparent.
 Useful for loading sprite sheets/textures.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 

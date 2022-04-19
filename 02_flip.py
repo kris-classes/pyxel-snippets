@@ -6,7 +6,7 @@ update the screen manually while you experiment.
 
 Better is to use functions (see next example).
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 import time

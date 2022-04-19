@@ -3,7 +3,7 @@ Display colors available in pyxel with the default palette.
 
 Same as 02_colors but in a for loop and with added circles.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 

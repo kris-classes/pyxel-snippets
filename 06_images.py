@@ -1,7 +1,7 @@
 """
 Load an image.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 

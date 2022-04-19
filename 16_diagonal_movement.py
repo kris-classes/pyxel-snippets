@@ -1,7 +1,7 @@
 """
 Small snippet demonstrating diagonal pixel movement for Seubmarine on Discord.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import math
 import pyxel

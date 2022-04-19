@@ -18,7 +18,7 @@ Game of Life is a simulation with the following rules:
     demonstrate using pyxel for cellular automata.
     There may be race conditions that I haven't had time to investigate yet, so consider this to be pre-alpha quality software.
 
-    Kris Pritchard / @krisrp.
+    Kris Pritchard / @krp
 """
 import collections
 import math

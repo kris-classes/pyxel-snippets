@@ -2,7 +2,7 @@
 Exactly the same as the colorkey example but using a
 spritesheet now and breaking it into smaller "sprites".
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 

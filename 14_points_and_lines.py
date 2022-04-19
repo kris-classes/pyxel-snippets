@@ -1,7 +1,7 @@
 """
 Connecting points with lines
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 

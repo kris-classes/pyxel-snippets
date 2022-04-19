@@ -3,7 +3,7 @@ Registering mouse clicks and drawing objects.
 Left Mouse Button: Single "splat".
 Right Mouse Button: Hold it for multi-splat.
 
-Kris Pritchard / @krisrp
+Kris Pritchard / @krp
 """
 import pyxel
 import random
