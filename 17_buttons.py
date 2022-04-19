@@ -53,7 +53,7 @@ class App:
     def update(self):
 
         # If the user left-clicked, create a splat at the mouse cursor position.
-        if pyxel.btnp(pyxel.MOUSE_LEFT_BUTTON):
+        if pyxel.btnp(pyxel.MOUSE_BUTTON_LEFT):
             if self.buttonA.check_clicked(pyxel.mouse_x, pyxel.mouse_y):
                 self.buttonA.color = (self.buttonA.color + 1) % 15
                 print('Do the thing for button A')

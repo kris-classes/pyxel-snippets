@@ -282,7 +282,7 @@ class Grid:
 class App:
     def __init__(self):
         # Initialize the window and caption
-        pyxel.init(WINDOW_WIDTH, WINDOW_HEIGHT, caption='Game of Life')
+        pyxel.init(WINDOW_WIDTH, WINDOW_HEIGHT, title='Game of Life')
 
         # Create our world.
         self.world = Grid()

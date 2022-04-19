@@ -80,11 +80,11 @@ class App:
         self.splats = [splat for splat in self.splats if splat.radius >= 1]
 
         # If the user left-clicked, create a splat at the mouse cursor position.
-        if pyxel.btnp(pyxel.MOUSE_LEFT_BUTTON):
+        if pyxel.btnp(pyxel.MOUSE_BUTTON_LEFT):
             self.splats.append(Splat(pyxel.mouse_x, pyxel.mouse_y, 8))
 
         # If the user right-clicked, create a bunch of splats at the mouse cursor position.
-        if pyxel.btn(pyxel.MOUSE_RIGHT_BUTTON):
+        if pyxel.btn(pyxel.MOUSE_BUTTON_RIGHT):
             self.splats.append(Splat(pyxel.mouse_x, pyxel.mouse_y, 6))
 
 

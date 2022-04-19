@@ -24,7 +24,7 @@ class App:
 
 
     def update(self):
-        if pyxel.btnp(pyxel.MOUSE_LEFT_BUTTON):
+        if pyxel.btnp(pyxel.MOUSE_BUTTON_LEFT):
             self.points.append(Point(pyxel.mouse_x, pyxel.mouse_y))
 
     def draw_points(self):
