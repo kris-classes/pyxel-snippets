@@ -264,7 +264,7 @@ class Grid:
                 pyxel.pset(cell.x, cell.y, self.alive_color)
 
             s = "Conway's Game of Life\n" \
-                "A Pyxel Tribute by @krisrp\n" \
+                "A Pyxel Tribute by @krp\n" \
                 "John Horton Conway\n" \
                 "1937/12/26 - 2020/04/11\n" \
                 "\n" \
